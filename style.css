@@ -1,0 +1,76 @@
+.header {
+  height: 65px;
+  background-color: #e6b69c;
+}
+
+.main-content {
+  margin-top: 81px;
+  margin-bottom: 138px;
+}
+
+.sidebar {
+  height: 435px;
+  background-color: #d5ca69;
+}
+
+.banner {
+  height: 435px;
+  background-color: #f4a2a2;
+}
+
+.cards {
+  margin-top: 135px;
+  margin-bottom: 133px;
+}
+
+.big-card {
+  height: 259px;
+  background-color: #69c8d5;
+  margin-top: 21px;
+}
+
+.mini-card {
+  height: 85px;
+  background-color: #89afe8;
+  margin-top: 21px;
+}
+
+.right-side,
+.left-side {
+  height: 637px;
+  background-color: #bb9be4;
+}
+
+.center {
+  height: 637px;
+  background-color: #6eb468;
+}
+
+.footer {
+  height: 278px;
+  background-color: #f2a4dc;
+}
+
+@media (min-width: 765px) and (max-width: 990px) {
+  .main-content {
+    margin-top: 76px;
+    margin-bottom: 124px;
+  }
+
+  .cards {
+    margin-top: 140px;
+    margin-bottom: 64px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 766px) {
+  .main-content {
+    margin-top: 33px;
+    margin-bottom: 83px;
+  }
+
+  .cards {
+    margin-top: 77px;
+    margin-bottom: 81px;
+  }
+}
